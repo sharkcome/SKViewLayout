@@ -10,6 +10,11 @@
 
 @interface UIView (ViewLayout)
 
+- (CGFloat)height;
+- (CGFloat)width;
+- (CGFloat)x;
+- (CGFloat)y;
+
 - (void)fill;
 
 @end

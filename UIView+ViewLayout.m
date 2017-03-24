@@ -10,6 +10,22 @@
 
 @implementation UIView (ViewLayout)
 
+- (CGFloat)height {
+    return self.bounds.size.height;
+}
+
+- (CGFloat)width {
+    return self.bounds.size.width;
+}
+
+- (CGFloat)x{
+    return self.frame.origin.x;
+}
+
+- (CGFloat)y {
+    return self.frame.origin.y;
+}
+
 - (void)fill {
     NSLog(@"__cme");
 }
